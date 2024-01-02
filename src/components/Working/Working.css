@@ -18,6 +18,10 @@
     flex-direction: column;
     gap: 5rem;
 }
+.working-card{
+    background: none!important;
+    overflow: hidden;
+}
 .working__card .card{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -46,6 +50,9 @@
 .working__card  .video > img{
     width: 100%;
     height: auto;
+}
+.working-card .sub__heading{
+    color: white;
 }
 
 .working__card-content{

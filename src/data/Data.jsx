@@ -250,22 +250,25 @@ export const faqPlagiarismData = [
 export const AiDetectionData = [
   {
     id: 1,
-    imgPath: <GiArchiveResearch />,
+    imgPath: "https://assets-global.website-files.com/60e5f2de011b86acebc30db7/6526c41d016c6bc6822af669_Company%20Intelligence%20Hub.svg",
     title: "For Writers",
-    description: "In an era where search engines like Google have sharpened their ability to spot AI-generated content, it's paramount to maintain the human touch in your writings. With AI Audits, writers can confidently craft content, knowing it resonates with originality and escapes penalties."
+    description: "Craft authentic content to avoid AI detection by Google."
   },
+//  In an era where search engines like ||  With AI Audits, writers can confidently craft content, knowing it resonates with originality and escapes penalties.
   {
     id: 2,
-    imgPath: <FaBookOpen />,
+    imgPath: "https://assets-global.website-files.com/60e5f2de011b86acebc30db7/6526c41d146e5c463ed823bb_Content%20Acceleration.svg",
     title: "For Educators",
-    description: "In the realm of academia, authenticity is non-negotiable. AI Audits provide educators with the assurance that the content under scrutiny is genuinely human-crafted, aligning with academic standards and integrity."
+    description: "In the realm of academia, authenticity is non-negotiable. "
   },
+//   AI Audits provide educators with the assurance that the content under scrutiny is genuinely human-crafted, aligning with academic standards and integrity.
   {
     id: 3,
-    imgPath: <RiComputerFill />,
+    imgPath: "https://assets-global.website-files.com/60e5f2de011b86acebc30db7/6526c41ecb2dc3b2693a61f8_Project%20Management.svg",
     title: "For Web Publishers",
-    description: "In the digital publishing world, the authenticity of content is the cornerstone of credibility. AI Audits empower publishers to validate the human origin of articles and collaborations, ensuring each piece is genuine and original before it graces the web."
+    description: "content authenticity is crucial for credibility."
   },
+//   AI Audits empower publishers to validate the human origin of articles and collaborations, ensuring each piece is genuine and original before it graces the web.
 ]; 
 
 

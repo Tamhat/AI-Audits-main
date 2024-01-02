@@ -13,8 +13,8 @@ import { workingHomeData } from "../../data/Data";
 const Home = () => {
   return (
     <>
-      <FirstHeroSection description={description} homeBg={true} />
       <PasteContent />
+      <FirstHeroSection description={description} homeBg={true} />
       <SecondHeroSection imagePath={aiAuditsHero} />
       <ThirdHeroSection
         thirdHeroHeading={thirdHeroHeading}
@@ -37,14 +37,16 @@ export default Home;
 
 // ======for first hero section==============
 const description =
-  "AI Audits isn't just another tool; it's the definitive authority in AI content detection. With unparalleled precision and a commitment to content originality, our platform stands unmatched in the accuracy of detections. We delve deep, identifying content crafted by the industry's most advanced Large Language Models, including giants like ChatGPT, GPT-4, and Bard. Harnessing a deep understanding of the digital landscape, AI Audits ensures that every piece of content is genuine and free from AI-generated imitations. When it comes to ensuring authenticity and setting the benchmark, AI Audits is the undisputed leader.";
+  "AI Audits isn't just another tool; it's the definitive authority in AI content detection. With unparalleled precision and a commitment to content originality, our platform stands unmatched in the accuracy of detections. We delve deep, identifying content crafted by the industry's most advanced Large Language Models, including giants like ChatGPT, GPT-4, and Bard.";
+
+// Harnessing a deep understanding of the digital landscape, AI Audits ensures that every piece of content is genuine and free from AI-generated imitations. When it comes to ensuring authenticity and setting the benchmark, AI Audits is the undisputed leader.
 
 import aiAuditsHero from "../../assets/ai-audits-hero.png";
 
 // =======for third hero section=========
-const thirdHeroHeading = "The Gold Standard in AI Detection at 99.9% Accuracy";
+const thirdHeroHeading = `The Gold Standard in AI ${<br/>} Detection at 99.9% Accuracy`;
 const thirdHeroTitle =
-  "Boasting a staggering 99.6% accuracy rate, AI Audits stands as a beacon of reliability in a rapidly evolving AI landscape. As the digital frontier expands and Large Language Models advance, we evolve in tandem, ensuring our detection algorithms are always a step ahead.";
+  "Boasting a staggering 99.6% accuracy rate, AI Audits stands as a beacon of reliability in a rapidly evolving AI landscape. As the digital frontier expands and Large Language Models advance";
 
 // ========for woking section==========
 const wokingHomeTitle = "How AI Audits Content Detection Work";

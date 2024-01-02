@@ -1,8 +1,13 @@
-.secondHeroSection__img{
+video{
     width: 100%;
+    height: auto;
     overflow: hidden;
     border-radius: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+.video{
+    margin: 0 auto;
 }
 .secondherosection__container > img{
     width: 100%;
@@ -20,6 +25,7 @@
 .feature__in > h2{
     font-size: 2rem;
     font-weight: 700;
+    color: white;
 }
 .marqueeAutoSlider{
     width: 100%;
@@ -30,6 +36,7 @@
     place-items: center;
     border-radius: 5px;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    background-color: white;
 }
 
 

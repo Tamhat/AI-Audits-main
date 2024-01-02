@@ -20,10 +20,11 @@
 }
 .benefits__card{
     padding: 3rem;
-    border: 2px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(255 255 255 / 32%);
     border-radius: 5px;
-    box-shadow: 2px 3px 5px rgba(255, 255, 255, 0.1);
+    /* box-shadow: 2px 3px 5px rgba(255, 255, 255, 0.1); */
     transition: var(--transition);
+    /* background: #232222; */
 }
 .benefits__card:hover{
     transform: scale(1.05);
@@ -41,6 +42,7 @@
 }
 .benefits__card-details > .sub__heading{
     padding-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.774);
 }
 .benefits__card-details > .text{
     line-height: 1.4;

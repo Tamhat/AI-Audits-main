@@ -76,7 +76,7 @@ html {
 
 body {
   /* font-family: 'Montserrat', sans-serif; */
-  background: var(--color--white);
+  background: black;
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -113,7 +113,7 @@ section {
 .heading {
   font-size: var(--font-size--heading);
   font-family: 'Montserrat', sans-serif;
-  color: var(--font--color-heading);
+  color: white;
   letter-spacing: -0.15rem;
   font-weight: 600;
   -webkit-font-smoothing: antialiased;

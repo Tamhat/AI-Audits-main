@@ -20,7 +20,7 @@ const Working = (props) => {
               data?.map((curElem) => {
                 const { id, imgPath, title, des, video, activate } = curElem;
                 return (
-                  <div key={id} className="card">
+                  <div key={id} className="card working-card">
                     <div className="video" data-aos="fade-right">
                       {video === true ? (
                         <video src={imgPath} autoPlay muted loop />

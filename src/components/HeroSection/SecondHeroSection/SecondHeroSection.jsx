@@ -4,14 +4,15 @@ import { marqueeData } from "../../../data/Data";
 import MarqueeGallery from "../../../shared/MarqueeGallery/MarqueeGallery";
 // import { useAppContext } from "../../../context/AppContext";
 import "./SecondHeroSection.css";
+import imgPath from '../../../assets/aiAuditsVideos.mp4'
 
-const SecondHeroSection = ({imagePath}) => {
+const SecondHeroSection = () => {
 
   return (
     <section>
       <div className="container secondherosection__container">
-        <div className="secondHeroSection__img">
-          <img src={imagePath} alt="" />
+        <div className="video" data-aos="fade-right">
+            <video src={imgPath} autoPlay muted loop />
         </div>
 
         <div

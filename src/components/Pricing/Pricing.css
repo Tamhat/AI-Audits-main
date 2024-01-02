@@ -1,12 +1,14 @@
 .pricing__bg{
     padding: 10rem 0;
-    background: var(--color--cyan-bluish-gray);
+    background: white;
 }
 .pricing__container > .heading{
-    max-width: 400px;
+    /* max-width: 400px; */
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    color: black;
+    font-size: 8rem; 
 }
 
 .toggle{

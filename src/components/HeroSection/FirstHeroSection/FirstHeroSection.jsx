@@ -8,10 +8,10 @@ import { MdOutlineStart } from "react-icons/md";
 import "./FirstHeroSection.css";
 
 const FirstHeroSection = (props) => {
-  const { description,  homeBg , title } = props;
+  const { description, homeBg, title } = props;
   const typedRef = useRef(null);
 
-  if(homeBg === true){
+  if (homeBg === true) {
     useEffect(() => {
       const typed = new Typed(typedRef.current, {
         strings: [" content decetor", "plagiarism decetion"],
@@ -24,7 +24,7 @@ const FirstHeroSection = (props) => {
         showCursor: true,
         cursorChar: "|",
       });
-  
+
       return () => {
         typed.destroy();
       };
@@ -37,7 +37,7 @@ const FirstHeroSection = (props) => {
         <div className="firstHero__left" data-aos="fade-right">
           <div className="typed__container">
             {
-              homeBg === true ?  <h1 className="firsthero__heading">The most advance <br /> AI <span ref={typedRef}></span></h1> : <h1 className="firsthero__heading">{title}</h1>
+              homeBg === true ? <h1 className="firsthero__heading">The most advance <br /> AI <span ref={typedRef}></span></h1> : <h1 className="firsthero__heading">{title}</h1>
             }
           </div>
 
@@ -53,12 +53,10 @@ const FirstHeroSection = (props) => {
         </div>
 
         <div className="firstHero__video" data-aos="fade-left">
-          <Lottie
-            className="lottie__hero"
-            animationData={AIAUDITS}
-            loop={true}
-          />
+          <div className="lottie__hero">
+            <img src="https://www.sharksystem.co.in/wp-content/uploads/2023/06/ai-53.png" width="100%" height="auto" alt="asd" className="hero-robot" /></div>
         </div>
+
       </div>
     </section>
   );

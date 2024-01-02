@@ -1,11 +1,13 @@
 .pasteContent__container .heading:nth-child(1){
-    font-size: 3.5rem;
+    font-size: 5.5rem;
     font-weight:700;
     margin-bottom:  0rem;
+    text-align: center;
 }
 .pasteContent__container .text{
     font-size: 1.8rem;
     font-weight: 500;
+    color:#878d97;
 }
 .pasteContent__container{
     display: flex;
@@ -27,14 +29,16 @@
     border-radius: 2rem;
     outline: none;
     border: 2px solid var(--extra-color-3);
+    font-family: inherit;
 }
 .pasteContent__container > input::placeholder{
     font-size: 2rem;
     display: grid;
 }
 .pasteContent__container > .nav__btn{
-    width: 30%;
+    width: 21%;
     display: grid;
+    padding: 1.7rem 1rem;
 }
 .pasteContent__container > small{
     font-size: 1.3rem;
@@ -42,10 +46,17 @@
 }
 
 
+.blob{
+    position: relative;
+
+}
 
 
-
-
+.hero-sec{
+    margin-top: 10rem;
+    height: 100vh;
+    background: url(https://gajix.com/wp-content/uploads/2023/03/grid-bg-1.png),radial-gradient(ellipse at right,rgba(121,58,255,0.65) 0%,rgba(255,255,255,0) 72%)!important
+}
 
 
 

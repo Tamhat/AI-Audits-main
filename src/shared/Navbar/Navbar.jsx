@@ -13,15 +13,15 @@ import "./Navbar.css";
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false);
 
-  const handleNavMenu = () =>{
+  const handleNavMenu = () => {
     return setIsNavShowing((prev) => !prev)
   }
 
   return (
     <nav>
       <div className="container navbar__container">
-        <NavLink to="/" className="logo">
-          <img src={Logo} alt="Logo" />
+        <NavLink aria-current="page" className="logo active" to="/" style={{ fontSize: '2rem', color: 'white' }}>
+          <h1 className="hero-name">Ai Audits</h1>
         </NavLink>
 
         <ul className={`menu__item ${isNavShowing && "show"}`}>
@@ -57,23 +57,23 @@ const Navbar = () => {
         </ul>
 
         <div className="right__menu__item">
-          <div className="right__icon">
+          {/* <div className="right__icon">
             <HiLanguage />
           </div>
           <div className="right__icon">
             <FiLogIn />
-          </div>
+          </div> */}
           <button className="nav__btn">
             <BsLightningCharge /> Get started free
           </button>
 
           <div className="menu__icon" onClick={handleNavMenu}>
-          {isNavShowing ? <MdClose /> : <CgMenuRightAlt />}
-        </div>
+            {isNavShowing ? <MdClose /> : <CgMenuRightAlt />}
+          </div>
 
         </div>
       </div>
-    </nav>
+    </nav >
   );
 };
 
