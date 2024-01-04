@@ -25,7 +25,7 @@ const Benefits = () => {
   };
 
   return (
-    <section>
+    <section className="bene">
       <div className="container benefits__container">
         <div className="belefits__left">
           <h1 className="heading">Benefits of AI Audits</h1>

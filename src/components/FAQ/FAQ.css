@@ -1,5 +1,9 @@
 #FAQ{
     margin-bottom: 10rem;
+    background: url(https://www.talkr.ai/wp-content/uploads/2023/11/line.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
 }
 .faq__container > .heading{
     text-align: center;

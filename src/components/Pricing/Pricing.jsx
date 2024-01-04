@@ -10,8 +10,8 @@ const Pricing = () => {
 
   return (
     <section className="pricing__bg" id="pricing">
-      <div className="container pricing__container">
-        <h1 className="heading">Flexible pricing for your <br/>needs</h1>
+      <div className="container pricing__container" >
+        <h1  id="pricingHead">Flexible pricing for your <br/>needs</h1>
 
         <div className="toggle">
           <button
