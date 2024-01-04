@@ -4,6 +4,14 @@
     background-position: bottom;
     background-size: contain
 }
+.beneimg{
+position: absolute;
+    width: 26%;
+    top: unset;
+    margin-top: 642px;
+    /* right: 0; */
+    transform: scaleX(-1);
+}
 
 
 
