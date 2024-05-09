@@ -102,7 +102,7 @@ export const PriceData = [
         img: PricingImage2,
         text: "Essential",
         price: 19.99,
-        updatePrice: 34,
+        updatePrice: 219,
         features: [
             {feature: 'Ai Detection', available: true},
             {feature: 'Plagiarism Detection', available: true},
@@ -118,7 +118,7 @@ export const PriceData = [
         img: PricingImage3,
         text: "Advanced",
         price: 37.99,
-        updatePrice: 89,
+        updatePrice: 419,
         features: [
             {feature: 'Ai Detection', available: true},
             {feature: 'Plagiarism Detection', available: true},

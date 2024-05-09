@@ -47,7 +47,7 @@ const Pricing = () => {
                   <div className="price">
                     <span>$</span>
                     <span>{`${!isToggle ? price : updatePrice}`}</span>
-                    <span>{price > 0 ? "/ month" : ""}</span>
+                    <span>{price > 0 ? !isToggle ? "/ month" : "/ year" : ""}</span>
                   </div>
 
                   <div className="price__description">
